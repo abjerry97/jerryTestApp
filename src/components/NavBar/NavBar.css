@@ -1,0 +1,123 @@
+/* div .container-fluid-nav-bar {
+    padding: 0;
+}
+.nav-bar form {
+    margin: 0 10px;
+}
+.navBar li {
+display: flex;
+list-style: none;
+}
+
+div.navbar-nav {
+    position: absolute;
+    right: 100px;
+}
+.nav-bar Nav {
+    justify-content: space-between;
+    
+}
+
+a.nav-link {
+    margin: 0 15px;
+} 
+a.navbar-brand {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    float: right;
+} */
+
+.NavbarItems {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid #ECECEC;
+}
+
+.navbar-logo {
+    color: #fff;
+    display: flex;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+ul.nav-menu {
+    margin: auto;
+}
+
+.nav-links  {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: #fbb30b;
+    border-radius: 4px;
+    transition: all 0.2 ease-out;
+}
+
+.search-icon {
+    display: none;
+}
+
+.fa-search, .fa-times {
+    color: black;
+    margin: auto;
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .nav-links {
+        padding: 0.5rem 0.5rem;
+    }
+.nav-menu {
+    margin-right: 0.5rem;
+    
+}
+.fa-search , .fa-times  {
+display: flex;
+}
+.search-box {
+    display: none;
+
+}
+.search-box.active {
+    display: block;
+    width: 80%;
+    margin: auto;
+    right: 5%;
+   
+    align-items: center;
+}
+ul.navbar-logo {
+   /* position: absolute;
+   display: inline;
+   background-color: red;
+   width:250px; */
+
+   position: absolute;
+   top:10%;
+  
+}
+.fa-search:hover{
+    padding: 20px;
+    padding: 2px;
+    border-radius: 4px;
+}
+}
