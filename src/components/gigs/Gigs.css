@@ -49,22 +49,29 @@ div.col {
     
     margin: 0;
 }
+
+
+input:focus, .form-select:focus,.form-control:focus {
+     
+    border-color:#FBB30B ;
+    
+}
 .input.form-control {
     margin: auto;
 }
 
-.row.table-nav-row table {
+.table-nav-row table {
     border: none;
     border-collapse:separate; 
     border-spacing: 0 1em;
 }
 
-.row.table-nav-row th {
+.table-nav-row th {
     border: none;
 }
 
 
-.row.table-nav-row tbody tr {
+.table-nav-row tbody tr {
     background: #ffffff;
     border: 1px solid #F6F6F6;
     border-radius: 15px;

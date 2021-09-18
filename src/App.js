@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter>
     <div className="container-fluid">
       <div className="row">
-      <div className="col-sm-100 col-lg-2"><SideBar/></div>
+      <div className="col-sm-12 col-lg-2"><SideBar/></div>
 
-      <div className="col-sm-100 col-lg-10 page-view-div" style={{backgroungColor:"#FBFBFF", opacity:"1" }}>
+      <div className="col-sm-12 col-lg-10 page-view-div" style={{backgroungColor:"#FBFBFF", opacity:"1" }}>
         <header>
           <NavBar/>
         </header>

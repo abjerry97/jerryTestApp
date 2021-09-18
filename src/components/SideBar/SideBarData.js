@@ -1,43 +1,31 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as MdIcons from 'react-icons/md';
 
 
 export const SideBarData = [
     {
         title: 'Dashboard',
         path: '/dashboard',
-        icon: <AiIcons.AiFillDashboard/>,
+        icon: <MdIcons.MdHome/>,
         cName: 'side-text'
     },
     {
-        title: 'Test',
-        path: '/test',
-        icon: <IoIcons.IoIosPaper/>,
+        title: 'Gigs',
+        path: '/gigs',
+        icon: <IoIcons.IoMdBriefcase/>,
         cName: 'side-text'
     },
     {
-        title: 'Question',
-        path: '/question',
-        icon: <FaIcons.FaQuestion/>,
+        title: 'Company',
+        path: '/company',
+        icon: <FaIcons.FaIndustry/>,
         cName: 'side-text'
     },
     {
-        title: 'Subjects',
-        path: '/subjects',
-        icon: <IoIcons.IoMdPeople/>,
-        cName: 'side-text'
-    },
-    {
-        title: 'Candidate',
-        path: '/candidate',
-        icon: <FaIcons.FaEnvelopeOpenText/>,
-        cName: 'side-text'
-    },
-    {
-        title: 'User',
-        path: '/user',
+        title: 'Account',
+        path: '/account',
         icon: <FaIcons.FaUser/>,
         cName: 'side-text'
     },

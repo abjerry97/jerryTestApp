@@ -8,6 +8,9 @@ import {
   Container,
   NavDropdown,
   Offcanvas,
+  OverlayTrigger,
+  Tooltip,
+  Image,
 } from "react-bootstrap";
 import * as MdIcons from "react-icons/md";
 import * as AiIcons from "react-icons/ai";
@@ -73,6 +76,7 @@ function NavBar() {
           
             <IoIcons.IoMdSettings />{" "}
           
+          
         </li>
         <li  className="nav-links">
             <AiIcons.AiOutlineMail />{" "}
@@ -81,10 +85,27 @@ function NavBar() {
             <MdIcons.MdNotificationsNone />
           </li>
         <li className="nav-links">
-          {" "}
+          {/* {" "}
             <Navbar.Brand href="#home">
             <img src="./images/Rectangle13\Rectangle13.png" alt="hero"></img>
-          </Navbar.Brand>
+          </Navbar.Brand> */}
+          <OverlayTrigger
+    placement="bottom"
+    overlay={<Tooltip id="button-tooltip-2">Check out this avatar</Tooltip>}
+  >
+    {({ ref, ...triggerHandler }) => (
+      <Navbar.Brand href="#home" {...triggerHandler}
+        className=""
+      >
+        <Image
+          ref={ref}
+          roundedCircle
+          src="./images/Rectangle13\Rectangle13.png" alt="hero"
+        />
+        
+      </Navbar.Brand>
+    )}
+  </OverlayTrigger>,
           </li>
       </ul>
     </nav>

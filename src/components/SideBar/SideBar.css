@@ -16,14 +16,13 @@ button#dropdown-basic.dropdown-toggle.btn img {
     align-items: center;
     font-size: 1.2rem;
     width: 100%;
-    margin: 0;  
+    padding-right: 2rem;
+    
 }
 
 .navbar-logo {
     color: #fff;
-    
-    justify-self: start;
-    
+    justify-self: end;
     cursor: pointer;
 }
 
@@ -32,13 +31,14 @@ button#dropdown-basic.dropdown-toggle.btn img {
     display: flex;
     list-style: none;
     text-align: center;
-    justify-content: start;
+    justify-content: space-between;
     margin-right: 1rem;
 } 
 ul.sidebar-navmenu {
-    margin: auto;
+    margin:  auto 1rem;
     width: 100%;
     padding: 0;
+    margin-left: 0
 }
 
 
@@ -48,6 +48,7 @@ ul.sidebar-navmenu {
     
     width:  100%;
     height: 100vh;
+    padding: 0;
     /* display: none; */
     justify-content: center;
     position: relative;
@@ -119,7 +120,7 @@ span {
     }
       .side-menu, .side-menu.active {
         width: 100%;
-        height: 400px;
+        height: 250px;
         left: 0;
     }
     .fa-bars{
