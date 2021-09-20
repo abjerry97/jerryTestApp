@@ -23,6 +23,7 @@ function App() {
               <NavBar />
             </header>
             <main>
+               <Route path="/"  exact component={Gigs}></Route>
               <Route path="/gigs" component={Gigs}></Route>
               <Route path="/newgig" component={NewGig}></Route>
             </main>
