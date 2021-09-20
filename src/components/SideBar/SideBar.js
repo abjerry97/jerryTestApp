@@ -11,9 +11,12 @@ function SideBar() {
       <div   className="side-bar">
        <ul  className="sidebar-navmenu">
       <li><i className="fa fa-bars " onClick={showSidebar}></i></li>
-    <li className="navbar-logo"> <span >
+    <li className="navbar-logo"> 
+    <Link to="/">
+    <span >
+      
       <img src="./images/Group493/Group493.png" alt="logo" className="navbar-logo"></img>
-      </span></li>
+      </span> </Link></li>
      
       </ul> 
       </div>
