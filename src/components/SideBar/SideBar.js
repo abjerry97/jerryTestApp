@@ -15,7 +15,7 @@ function SideBar() {
     <Link to="/">
     <span >
       
-      <img src="./images/Group493/Group493.png" alt="logo" className="navbar-logo"></img>
+      <img src="./images/Group493/Group493.png" alt="logo" ></img>
       </span> </Link></li>
      
       </ul> 
