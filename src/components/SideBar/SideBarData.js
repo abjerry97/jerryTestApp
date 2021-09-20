@@ -7,7 +7,7 @@ import * as MdIcons from 'react-icons/md';
 export const SideBarData = [
     {
         title: 'Dashboard',
-        path: '/dashboard',
+        path: '/gigs',
         icon: <MdIcons.MdHome/>,
         cName: 'side-text'
     },
@@ -19,13 +19,13 @@ export const SideBarData = [
     },
     {
         title: 'Company',
-        path: '/company',
+        path: '/gigs',
         icon: <FaIcons.FaIndustry/>,
         cName: 'side-text'
     },
     {
         title: 'Account',
-        path: '/account',
+        path: '/gigs',
         icon: <FaIcons.FaUser/>,
         cName: 'side-text'
     },

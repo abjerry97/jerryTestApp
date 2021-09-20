@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { SideBarData } from './SideBarData';
 import { Link } from "react-router-dom";
-import { Container, Dropdown, Navbar } from 'react-bootstrap';
 import './SideBar.css';
 function SideBar() {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
   const showSidebar = () => setSidebar(!sidebar);
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" >
     <nav className="row sidebar-nav">
       <div   className="side-bar">
        <ul  className="sidebar-navmenu">

@@ -1,0 +1,27 @@
+.new-gig div.card {
+    margin: 1rem;
+}
+
+.new-gig div.card button.btn.btn-primary {
+    background-color: #2F417E;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link  {
+    color: #565D74;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FBB30B;
+    background-color: none;
+}
+.form-check-input:checked {
+    background-color: #FBB30B;
+    border-color: #fff;
+
+}
+a#left-tabs-example-tab-first.nav-link.active {
+    background-color: #fff;
+}
+a#left-tabs-example-tab-second.nav-link.active {
+    background-color: #fff;
+}

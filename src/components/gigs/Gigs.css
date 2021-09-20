@@ -15,12 +15,12 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 2rem;
+    margin:.5rem;
     color: #585461;
 } 
 
 .row.gigs-nav-row {
-    margin: 4rem 0 ;
+    margin: 1.5rem 0 ;
     color: #585461;
 }
 
